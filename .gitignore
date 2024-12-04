@@ -24,3 +24,21 @@ hs_err_pid*
 replay_pid*
 
 *.vscode
+
+# Maven target directory
+target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Other common ignores
+*.log
+*.tmp
+*.bak
+*.swp
