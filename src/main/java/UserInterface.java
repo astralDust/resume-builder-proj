@@ -41,11 +41,14 @@ public class UserInterface {
             }
             case "x" -> {
                 System.out.println("Exiting the program...");
-                // exitProgram();
+                    System.exit(0);
             }
             default -> System.out.println("Invalid option!");
         }
 
+    }
+         public static void main(String[] args) {
+        Menu();
     }
 
 }
